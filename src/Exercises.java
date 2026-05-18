@@ -46,12 +46,12 @@ public class Exercises {
             if (current.data < 0){
                 count++;
             }
-            
+            current = current.next;
+
         }
+        return count;
 
     }
-
-    
 
     /**
      * Adds a new ListNode with the given value to the end of the linked list.
