@@ -17,6 +17,7 @@ public class Exercises {
 
         while (current != null){
             sum += current.data;
+            current = current.next;
         }
 
         return sum; 
@@ -98,7 +99,7 @@ public class Exercises {
         ListNode current = head;
 
         while (current != null){
-             if (current != null){
+             if (current.data < 0){
            // return i++;
            current.data = current.data * -1;
         }
