@@ -74,6 +74,13 @@ public class Exercises {
      */
     public static void makePositive(ListNode head) {
 
+        //yes
+        if (head < 0){
+            return i++;
+        }
+        //ListNode makePositive = head; 
+        return i++; 
+
     }
 
     /**
