@@ -18,6 +18,8 @@ public class Exercises {
         while (current != null){
             sum += current.data;
         }
+
+        return sum; 
     }
 
     /**
@@ -91,6 +93,17 @@ public class Exercises {
      * @return whether the list is increasing
      */
     public static boolean isIncreasing(ListNode head) {
-        return false;
+        //return false;
+
+        if (head == null) {
+            return true;
+        }
+
+        listNode current = head; 
+
+
+
+
+
     }
 }
