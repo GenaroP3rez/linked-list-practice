@@ -68,6 +68,7 @@ public class Exercises {
             current = current.next;
         }
 
+        current.next = new ListNode(toAdd);
     }
 
     /**
