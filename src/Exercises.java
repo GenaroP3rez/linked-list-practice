@@ -12,7 +12,12 @@ public class Exercises {
      * @return sum of the values in the list
      */
     public static int sum(ListNode head) {
-        return -1;
+        int sum = 0; 
+        listNode crrent = head; 
+
+        while (current != null){
+            sum += current.data;
+        }
     }
 
     /**
@@ -29,7 +34,11 @@ public class Exercises {
      */
     public static int countNegative(ListNode head) {
         return -1;
+
+        hello
     }
+
+    
 
     /**
      * Adds a new ListNode with the given value to the end of the linked list.
