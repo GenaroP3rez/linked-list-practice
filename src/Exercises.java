@@ -99,11 +99,15 @@ public class Exercises {
             return true;
         }
 
-        listNode current = head; 
+        ListNode current = head; 
 
-
-
-
+        while (current.next != null){
+            if (current.data > current.next.data){
+                return false;
+            }
+            current = current.next;
+        }
+        return true; 
 
     }
 }
