@@ -73,15 +73,21 @@ public class Exercises {
      * @param head the head of the list
      */
     public static void makePositive(ListNode head) {
+        ListNode current = head;
 
-        //yes
-        if (head < 0){
+        while (current != null){
+             if (head < 0){
             return i++;
         }
         //ListNode makePositive = head; 
         return i++; 
 
     }
+
+        }
+
+        //yes
+       
 
     /**
      * Returns true if every value in the list is less than or equal to the next
