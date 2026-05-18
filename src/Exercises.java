@@ -13,7 +13,7 @@ public class Exercises {
      */
     public static int sum(ListNode head) {
         int sum = 0; 
-        listNode crrent = head; 
+        ListNode current = head; 
 
         while (current != null){
             sum += current.data;
@@ -57,6 +57,16 @@ public class Exercises {
      * @param toAdd the value to append in a new node
      */
     public static void addToEnd(ListNode head, int toAdd) {
+
+
+        if (head == null){
+            return; 
+        }
+        ListNode current = head; 
+
+        while (current.next != null){
+            current = current.next;
+        }
 
     }
 
