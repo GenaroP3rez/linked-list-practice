@@ -76,18 +76,18 @@ public class Exercises {
         ListNode current = head;
 
         while (current != null){
-             if (head < 0){
-            return i++;
+             if (current != null){
+           // return i++;
+           current.data = current.data * -1;
         }
         //ListNode makePositive = head; 
-        return i++; 
+       // return i++; 
 
+       current = current.next; 
     }
-
         }
 
         //yes
-       
 
     /**
      * Returns true if every value in the list is less than or equal to the next
